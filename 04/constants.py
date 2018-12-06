@@ -1,0 +1,4 @@
+
+BEGIN_SHIFT = 1
+WAKE_UP = 2
+FALL_SLEEP = 3
