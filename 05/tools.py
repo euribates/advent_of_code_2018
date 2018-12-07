@@ -72,6 +72,8 @@ class DL:
         if not node.is_reactable():
             return 0
         if self.length == 2:
+            self.root.forward = None
+            self.head.backward = None
             self.root = self.head = None
             self.length = 0
             return 1
@@ -86,16 +88,18 @@ class DL:
         else:  # in the middle
             prev.backward.forward = curr.forward
             curr.forward.backward = prev.backward
+        curr.forward = None
+        curr.backward =  None
+        prev.forward = None
+        prev.backward = None
         del curr
         del prev
         self.length -= 2
         return 1
 
     def reduce(self):
-        while True:
+        num_changes = -1
+        while num_changes != 0:
+            num_changes = 0
             for n in self:
-                num_changes = self.react(n)
-                if num_changes > 0:
-                    break
-            if num_changes == 0:
-                break
+                num_changes += self.react(n)
