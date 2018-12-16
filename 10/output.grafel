@@ -1,0 +1,190 @@
+Cast:
+
+    aa = Box pos 457x133 color red
+    ab = Box pos 396x107 color red
+    ac = Box pos 274x53 color red
+    ad = Box pos 366x373 color red
+    ae = Box pos 244x0 color red
+    af = Box pos 0x373 color red
+    ag = Box pos 213x320 color red
+    ah = Box pos 213x293 color red
+    ai = Box pos 91x400 color red
+    aj = Box pos 396x267 color red
+    ak = Box pos 122x187 color red
+    al = Box pos 61x187 color red
+    am = Box pos 488x27 color red
+    an = Box pos 335x400 color red
+    ao = Box pos 305x293 color red
+    ap = Box pos 427x53 color red
+    aq = Box pos 640x107 color red
+    ar = Box pos 213x267 color red
+    as = Box pos 427x347 color red
+    at = Box pos 274x187 color red
+    au = Box pos 183x240 color red
+    av = Box pos 122x160 color red
+    aw = Box pos 335x53 color red
+    ax = Box pos 213x213 color red
+    ay = Box pos 122x293 color red
+    az = Box pos 274x267 color red
+    aA = Box pos 335x107 color red
+    aB = Box pos 0x107 color red
+    aC = Box pos 335x347 color red
+    aD = Box pos 610x293 color red
+    aE = Box pos 91x267 color red
+Actions:
+
+    1-20 EaseIn aa 457x187
+    1-20 EaseIn ab 366x107
+    1-20 EaseIn ac 244x80
+    1-20 EaseIn ad 305x347
+    1-20 EaseIn ae 305x53
+    1-20 EaseIn af 61x320
+    1-20 EaseIn ag 244x293
+    1-20 EaseIn ah 244x293
+    1-20 EaseIn ai 122x347
+    1-20 EaseIn aj 366x240
+    1-20 EaseIn ak 152x187
+    1-20 EaseIn al 122x187
+    1-20 EaseIn am 457x53
+    1-20 EaseIn an 366x347
+    1-20 EaseIn ao 305x267
+    1-20 EaseIn ap 427x80
+    1-20 EaseIn aq 579x107
+    1-20 EaseIn ar 244x267
+    1-20 EaseIn as 427x320
+    1-20 EaseIn at 244x213
+    1-20 EaseIn au 183x213
+    1-20 EaseIn av 183x160
+    1-20 EaseIn aw 366x107
+    1-20 EaseIn ax 274x240
+    1-20 EaseIn ay 183x240
+    1-20 EaseIn az 244x240
+    1-20 EaseIn aA 366x107
+    1-20 EaseIn aB 61x107
+    1-20 EaseIn aC 366x293
+    1-20 EaseIn aD 549x293
+    1-20 EaseIn aE 152x240
+    21-40 EaseIn aa 457x240
+    21-40 EaseIn ab 335x107
+    21-40 EaseIn ac 213x107
+    21-40 EaseIn ad 244x320
+    21-40 EaseIn ae 366x107
+    21-40 EaseIn af 122x267
+    21-40 EaseIn ag 274x267
+    21-40 EaseIn ah 274x293
+    21-40 EaseIn ai 152x293
+    21-40 EaseIn aj 335x213
+    21-40 EaseIn ak 183x187
+    21-40 EaseIn al 183x187
+    21-40 EaseIn am 427x80
+    21-40 EaseIn an 396x293
+    21-40 EaseIn ao 305x240
+    21-40 EaseIn ap 427x107
+    21-40 EaseIn aq 518x107
+    21-40 EaseIn ar 274x267
+    21-40 EaseIn as 427x293
+    21-40 EaseIn at 213x240
+    21-40 EaseIn au 183x187
+    21-40 EaseIn av 244x160
+    21-40 EaseIn aw 396x160
+    21-40 EaseIn ax 335x267
+    21-40 EaseIn ay 244x187
+    21-40 EaseIn az 213x213
+    21-40 EaseIn aA 396x107
+    21-40 EaseIn aB 122x107
+    21-40 EaseIn aC 396x240
+    21-40 EaseIn aD 488x293
+    21-40 EaseIn aE 213x213
+    41-60 EaseIn aa 457x293
+    41-60 EaseIn ab 305x107
+    41-60 EaseIn ac 183x133
+    41-60 EaseIn ad 183x293
+    41-60 EaseIn ae 427x160
+    41-60 EaseIn af 183x213
+    41-60 EaseIn ag 305x240
+    41-60 EaseIn ah 305x293
+    41-60 EaseIn ai 183x240
+    41-60 EaseIn aj 305x187
+    41-60 EaseIn ak 213x187
+    41-60 EaseIn al 244x187
+    41-60 EaseIn am 396x107
+    41-60 EaseIn an 427x240
+    41-60 EaseIn ao 305x213
+    41-60 EaseIn ap 427x133
+    41-60 EaseIn aq 457x107
+    41-60 EaseIn ar 305x267
+    41-60 EaseIn as 427x267
+    41-60 EaseIn at 183x267
+    41-60 EaseIn au 183x160
+    41-60 EaseIn av 305x160
+    41-60 EaseIn aw 427x213
+    41-60 EaseIn ax 396x293
+    41-60 EaseIn ay 305x133
+    41-60 EaseIn az 183x187
+    41-60 EaseIn aA 427x107
+    41-60 EaseIn aB 183x107
+    41-60 EaseIn aC 427x187
+    41-60 EaseIn aD 427x293
+    41-60 EaseIn aE 274x187
+    61-80 EaseIn aa 457x347
+    61-80 EaseIn ab 274x107
+    61-80 EaseIn ac 152x160
+    61-80 EaseIn ad 122x267
+    61-80 EaseIn ae 488x213
+    61-80 EaseIn af 244x160
+    61-80 EaseIn ag 335x213
+    61-80 EaseIn ah 335x293
+    61-80 EaseIn ai 213x187
+    61-80 EaseIn aj 274x160
+    61-80 EaseIn ak 244x187
+    61-80 EaseIn al 305x187
+    61-80 EaseIn am 366x133
+    61-80 EaseIn an 457x187
+    61-80 EaseIn ao 305x187
+    61-80 EaseIn ap 427x160
+    61-80 EaseIn aq 396x107
+    61-80 EaseIn ar 335x267
+    61-80 EaseIn as 427x240
+    61-80 EaseIn at 152x293
+    61-80 EaseIn au 183x133
+    61-80 EaseIn av 366x160
+    61-80 EaseIn aw 457x267
+    61-80 EaseIn ax 457x320
+    61-80 EaseIn ay 366x80
+    61-80 EaseIn az 152x160
+    61-80 EaseIn aA 457x107
+    61-80 EaseIn aB 244x107
+    61-80 EaseIn aC 457x133
+    61-80 EaseIn aD 366x293
+    61-80 EaseIn aE 335x160
+    81-100 EaseIn aa 457x400
+    81-100 EaseIn ab 244x107
+    81-100 EaseIn ac 122x187
+    81-100 EaseIn ad 61x240
+    81-100 EaseIn ae 549x267
+    81-100 EaseIn af 305x107
+    81-100 EaseIn ag 366x187
+    81-100 EaseIn ah 366x293
+    81-100 EaseIn ai 244x133
+    81-100 EaseIn aj 244x133
+    81-100 EaseIn ak 274x187
+    81-100 EaseIn al 366x187
+    81-100 EaseIn am 335x160
+    81-100 EaseIn an 488x133
+    81-100 EaseIn ao 305x160
+    81-100 EaseIn ap 427x187
+    81-100 EaseIn aq 335x107
+    81-100 EaseIn ar 366x267
+    81-100 EaseIn as 427x213
+    81-100 EaseIn at 122x320
+    81-100 EaseIn au 183x107
+    81-100 EaseIn av 427x160
+    81-100 EaseIn aw 488x320
+    81-100 EaseIn ax 518x347
+    81-100 EaseIn ay 427x27
+    81-100 EaseIn az 122x133
+    81-100 EaseIn aA 488x107
+    81-100 EaseIn aB 305x107
+    81-100 EaseIn aC 488x80
+    81-100 EaseIn aD 305x293
+    81-100 EaseIn aE 396x133
