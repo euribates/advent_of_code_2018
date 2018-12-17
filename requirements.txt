@@ -1,2 +1,3 @@
 pytest
 parse
+numpy
