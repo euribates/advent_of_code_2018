@@ -24,13 +24,26 @@ def main(options):
     initial_state, rules = read_input(filename)
     automat = Automat(initial_state, rules)
     print(automat.current_state)
-    for i in range(5000000000):
-        automat.evolve()
     solution = sum([
         k
         for k in automat.current_state.cells
         if automat.current_state.cells[k] == 1
         ])
+    for i in range(22):
+        automat.evolve()
+        print(automat.current_state)
+        old_value = solution
+        solution = sum([
+            k
+            for k in automat.current_state.cells
+            if automat.current_state.cells[k] == 1
+            ])
+        # print(f'Step {i} solution in {solution} diff {solution-old_value}')
+    
+    def f(x):
+        return 10617 + (x - 120)*69
+
+    solution = f(50000000000-1)
     print(f'Solution of part 2 is {solution}')
 
 

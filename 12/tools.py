@@ -90,7 +90,6 @@ class Automat:
     def __init__(self, initial_state, rules):
         self.initial_state = initial_state
         self.current_state = initial_state
-        self.history = [str(self.initial_state)]
         self.rules = rules
 
     def apply_rules(self, cells):
@@ -105,5 +104,4 @@ class Automat:
         for i, cells in self.current_state:
             content = self.apply_rules(cells)
             new_state.set_cell(i, content)
-        self.history.append(new_state)
         self.current_state = new_state
