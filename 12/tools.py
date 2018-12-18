@@ -20,7 +20,7 @@ class Rule:
 
 class State:
 
-    def __init__(self, line):
+    def __init__(self, line=''):
         self.cells = collections.defaultdict(int)
         if ':' in line:
             for i, c in enumerate(line.split(':')[1].strip()):
@@ -32,11 +32,18 @@ class State:
         self.min = 0
         self.max = len(self.cells)
 
+    def set_cell(self, index, content):
+        self.cells[index] = 1 if content == '#' else 0
+        if content == '#':
+            self.min = min(index, self.min)
+            self.max = max(index, self.max)
+
     def __str__(self):
+        cells = range(-5, 37)
         return ''.join([
             '#' if self.cells[k] == 1 else '.'
-            for k in self.cells
-            ])
+            for k in cells
+            ]) + f'Min: {self.min}..{self.max}'
 
     def __iter__(self):
         return (
@@ -79,11 +86,24 @@ def read_input(filename):
 
 
 class Automat:
+
     def __init__(self, initial_state, rules):
         self.initial_state = initial_state
         self.current_state = initial_state
+        self.history = [str(self.initial_state)]
         self.rules = rules
 
+    def apply_rules(self, cells):
+        for rule in self.rules:
+            applied, result = rule.produce(cells)
+            if applied:
+                return result
+        return '.'
+
     def evolve(self):
-        for i in self.current_state:
-            pass
+        new_state = State()
+        for i, cells in self.current_state:
+            content = self.apply_rules(cells)
+            new_state.set_cell(i, content)
+        self.history.append(new_state)
+        self.current_state = new_state

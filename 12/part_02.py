@@ -24,14 +24,14 @@ def main(options):
     initial_state, rules = read_input(filename)
     automat = Automat(initial_state, rules)
     print(automat.current_state)
-    for i in range(20):
+    for i in range(5000000000):
         automat.evolve()
     solution = sum([
         k
         for k in automat.current_state.cells
         if automat.current_state.cells[k] == 1
         ])
-    print(f'Solution of part 1 is {solution}')
+    print(f'Solution of part 2 is {solution}')
 
 
 if __name__ == '__main__':
